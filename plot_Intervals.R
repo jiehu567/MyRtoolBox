@@ -5,9 +5,6 @@
 #       - plotHI:   default TRUE, set FALSE if you don't want to plot prediction interval
 #       - col1 and col2, should be strings, colors of lines for confidence interval and prediction interval
 
-
-# Plot Confidence Interval for any linear model
-
 plotCI <- function(model_name,       
                    plotCI = TRUE, 
                    plotHI = FALSE, 
